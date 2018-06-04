@@ -15,6 +15,7 @@ RIGHT - right
 
 Interesting Features:
 The snake can touch or “pass through” itself, unlike in the original, this will not terminate your game.
+The snake starts slithering in a random direction as soon as the game begins.
 The apples are green, and the game is blocked - formatted like large box.
 The game lags but that is a internet connection error and not an error in the code.
 My brother was the inspiration of taking out the snake dying by slithering over itself, as that is how majority of his games ended. So now he can play this game without worrying about that feature.
