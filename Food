@@ -1,0 +1,21 @@
+import greenfoot.*;
+/**
+ * Class Food holds the green food that the snake eats to grow
+ * 
+ * Teresa Boehnke 
+ * 6/4/18
+ */
+public class Food extends Actor
+{
+    public Food()
+    {
+        /**
+         * creates the apple, or food, that the snake will eat in order to grow
+         * it is one cell size and colored green
+         */
+        GreenfootImage apple = new GreenfootImage(20,20);
+        apple.setColor(Color.GREEN);
+        apple.fill();
+        setImage(apple);
+    }//end constructor Food
+}//end public class Food
